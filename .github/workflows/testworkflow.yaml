@@ -1,0 +1,11 @@
+name: my test workflow
+
+on: push
+
+jobs:
+  test:
+   runs-on: ubuntu
+
+   steps:
+     - name: run commenad
+       run: echo "hello world!"
